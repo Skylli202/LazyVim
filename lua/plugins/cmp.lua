@@ -6,6 +6,7 @@ return {}
 --     keys = function()
 --       return {}
 --     end,
+--     history = false,
 --   },
 --   -- then: setup supertab in cmp
 --   {
