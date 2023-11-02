@@ -1,4 +1,4 @@
 return {
-  { "rcarriga/nvim-notify", enabled = true },
-  { "echasnovski/mini.pairs", enabled = false },
+  { "rcarriga/nvim-notify", enabled = false },
+  { "echasnovski/mini.pairs", enabled = true },
 }
