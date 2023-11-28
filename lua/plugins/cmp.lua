@@ -4,7 +4,7 @@ return {
   opts = function(_, opts)
     local cmp = require("cmp")
     opts.mapping = vim.tbl_extend("force", opts.mapping, {
-      ["<Tab>"] = cmp.mapping.confirm({ select = true, behavior = cmp.ConfirmBehavior.Replace }),
+      ["<tab>"] = cmp.mapping.confirm({ select = true, behavior = cmp.ConfirmBehavior.Replace }),
     })
   end,
 }
