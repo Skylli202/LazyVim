@@ -2,6 +2,7 @@
   "extras": [
 
     "lazyvim.plugins.extras.lang.go",
+    "lazyvim.plugins.extras.lang.java",
   ],
   "news": {
     "NEWS.md": "2123"
