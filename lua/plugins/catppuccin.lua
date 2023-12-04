@@ -27,7 +27,6 @@ return {
     integrations = {
       telescope = {
         enabled = true,
-        style = "nvchad",
       },
       dropbar = {
         enabled = true,
