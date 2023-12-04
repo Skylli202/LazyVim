@@ -28,10 +28,6 @@ return {
       telescope = {
         enabled = true,
       },
-      dropbar = {
-        enabled = true,
-        color_mode = true,
-      },
     },
   },
 }
