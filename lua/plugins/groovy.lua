@@ -13,7 +13,20 @@ return {
     opts = {
       ---@type lspconfig.options
       servers = {
-        groovyls = {},
+        groovyls = {
+          cmd = {
+            "java",
+            "-jar",
+            "/home/skylli/.local/share/nvim/mason/packages/groovy-language-server/build/libs/groovy-language-server-all.jar",
+          },
+          settings = {
+            groovy = {
+              classpath = {
+                "/home/skylli/.sdkman/candidates/groovy/current/lib",
+              },
+            },
+          },
+        },
       },
     },
   },
