@@ -23,6 +23,7 @@ return {
             groovy = {
               classpath = {
                 "/home/skylli/.sdkman/candidates/groovy/current/lib",
+                "/home/skylli/flex-sdk",
               },
             },
           },
