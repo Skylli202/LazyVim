@@ -12,6 +12,7 @@ return {
     ---@class PluginLspOpts
     opts = {
       ---@type lspconfig.options
+      ---@diagnostic disable-next-line: missing-fields
       servers = {
         groovyls = {
           cmd = {
@@ -22,8 +23,8 @@ return {
           settings = {
             groovy = {
               classpath = {
-                "/home/skylli/.sdkman/candidates/groovy/current/lib",
-                "/home/skylli/flex-sdk",
+                "~/.sdkman/candidates/groovy/current/lib",
+                "~/home/skylli/flex-sdk",
               },
             },
           },
