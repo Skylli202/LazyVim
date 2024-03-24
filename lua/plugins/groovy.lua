@@ -24,7 +24,7 @@ return {
             groovy = {
               classpath = {
                 "~/.sdkman/candidates/groovy/current/lib",
-                "~/home/skylli/flex-sdk",
+                "/home/skylli/flex-sdk/flex-sdk-external-6.3.15.jar",
               },
             },
           },
