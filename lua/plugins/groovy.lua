@@ -18,13 +18,13 @@ return {
           cmd = {
             "java",
             "-jar",
-            "/home/skylli/.local/share/nvim/mason/packages/groovy-language-server/build/libs/groovy-language-server-all.jar",
+            "~/.local/share/nvim/mason/packages/groovy-language-server/build/libs/groovy-language-server-all.jar",
           },
           settings = {
             groovy = {
               classpath = {
                 "~/.sdkman/candidates/groovy/current/lib",
-                "/home/skylli/flex-sdk/flex-sdk-external-6.3.15.jar",
+                "~/flex-sdk/flex-sdk-external-6.3.15.jar",
               },
             },
           },
