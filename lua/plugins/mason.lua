@@ -12,4 +12,21 @@ return {
       -- })
     end,
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        groovyls = {
+          settings = {
+            groovy = {
+              classpath = {
+                "/home/skylli/.sdkman/candidates/groovy/current/lib",
+                "/home/skylli/flex-sdk/flex-sdk-external-6.3.15.jar",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 }
